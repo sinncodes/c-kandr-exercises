@@ -71,13 +71,23 @@ exercise1_7()
 	printf("%d", c);
 }
 
+exercise1_8()
+{
+	double nc;
+
+	for(nc=0; getchar() != EOF; ++nc);
+	printf("%.0f\n", nc);
+}
+
+
 main()
 {
 	//exercise1_1();
 	//exercise1_3();
 	//exercise1_4();
 	//exercise1_5();
-	exercise1_7();
+	//exercise1_7();
+	exercise1_8();
 }
 
 
